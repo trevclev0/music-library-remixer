@@ -1,0 +1,17 @@
+{
+  "name": "music-library-remixer",
+  "version": "1.0.0",
+  "description": "Try to automate renaming the library",
+  "main": "index.mjs",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "glob": "^7.2.0",
+    "glob-promise": "^4.2.2",
+    "music-metadata": "^7.12.2",
+    "npmlog": "^6.0.1"
+  }
+}
